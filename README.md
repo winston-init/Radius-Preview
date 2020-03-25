@@ -14,3 +14,4 @@ This project was maden in HTML, CSS (without frameworks) and Vanilla JavaScript.
 ## Scheme
 
 Radius Preview has 2 scheme for better usage according with liking of everyone.
+[Dark Mode](https://github.com/winston-init/Radius-Preview/blob/master/assets/images/screenshot/app--darkmode.png)
