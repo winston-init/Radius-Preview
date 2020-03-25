@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1 class="header__heading">Radius Previewer</h1>
+    </header>
+    <main role="main">
+        <div class="app">
+            <div class="input-group">
+                <label class="label">
+                    Top-left: <input type="text" class="input" id="top-left" autocomplete="off">
+                </label>
+                <label class="label">
+                    Top-right: <input type="text" class="input" id="top-right" autocomplete="off">
+                </label>
+                <label class="label">
+                    Bottom-right: <input type="text" class="input" id="bottom-right" autocomplete="off">
+                </label>
+                <label class="label">
+                    Bottom-left: <input type="text" class="input" id="bottom-left" autocomplete="off">
+                </label>
+                <label class="label">
+                    Border-radius (8 values): <input type="text" class="input" id="eight-values">
+                </label>
+            </div>
+            
+            <div class="result-box">Custom</div>
+            <button class="btn btn-copy">Copy to CSS</button>
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
