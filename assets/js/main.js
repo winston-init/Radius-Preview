@@ -130,6 +130,10 @@ const toggleScheme = () => {
     btnDark.classList.toggle('btn-scheme--dark');  
     btnDark.classList.toggle('btn-scheme--light');
 
+    [].forEach.call(document.querySelectorAll('.content'), (item) => {
+      item.classList.toggle('content--dark');
+    })
+
     if (btnDark.textContent === 'Dark Mode') {
       btnDark.textContent = 'Light Mode';
     } else if (btnDark.textContent === 'Light Mode') {
